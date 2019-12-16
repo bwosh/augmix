@@ -21,6 +21,9 @@ from PIL import ImageOps
 # ImageNet code should change this value
 IMAGE_SIZE = 32
 
+def set_image_size(size):
+  global IMAGE_SIZE
+  IMAGE_SIZE = size
 
 def int_parameter(level, maxval):
   """Helper function to scale `val` between 0 and maxval .
