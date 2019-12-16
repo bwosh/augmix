@@ -10,7 +10,7 @@ Since some of normalizations were making output image un-demo-able I removed nor
 
 # Results
 
-Sample results processed by demo code is (first column is the original image, the 5 augmented samples):  
+Sample results processed by the demo notebook code is (first column is the original image, then 5 augmented samples):  
 
 ![augmix sample](augmix.png)
 
